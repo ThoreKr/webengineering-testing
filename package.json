@@ -1,0 +1,50 @@
+{
+  "name": "WebEng-Testframeworks",
+  "description": "A basic set of testframeworks",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThoreKr/webengineering-testing"
+  },
+  "contributors": [
+    {
+      "name": "Thore Kruess",
+      "email": "thore@kruess.xyz"
+    },
+    {
+      "name": "Dorian Czichotzki",
+      "email": "dorianczichotzki@outlook.de"
+    }
+  ],
+  "scripts": {
+    "coverage": "nyc mocha",
+    "test": "npm-run-all -c test:* lint",
+    "test:mocha": "mocha",
+    "lint": "npm-run-all -c lint:*",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"**/*.css\""
+  },
+  "keywords": [
+    "mocha",
+    "jasmine",
+    "karma"
+  ],
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "semver": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "jasmine-core": "latest",
+    "stylelint": "latest",
+    "npm-run-all": "latest",
+    "karma": "latest",
+    "karma-jasmine": "latest",
+    "karma-mocha": "latest",
+    "karma-chrome-launcher": "latest"
+  }
+}
