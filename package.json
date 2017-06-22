@@ -17,7 +17,6 @@
     }
   ],
   "scripts": {
-    "coverage": "nyc mocha",
     "test": "npm-run-all -c test:* lint",
     "test:mocha": "mocha",
     "lint": "npm-run-all -c lint:*",
@@ -37,14 +36,16 @@
     "semver": "latest"
   },
   "devDependencies": {
-    "eslint": "latest",
-    "mocha": "latest",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.5.0",
     "jasmine-core": "latest",
-    "stylelint": "latest",
-    "npm-run-all": "latest",
     "karma": "latest",
+    "karma-chrome-launcher": "latest",
     "karma-jasmine": "latest",
     "karma-mocha": "latest",
-    "karma-chrome-launcher": "latest"
+    "mocha": "latest",
+    "npm-run-all": "latest",
+    "stylelint": "latest"
   }
 }
