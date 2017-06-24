@@ -45,6 +45,7 @@
     "karma-jasmine": "latest",
     "karma-mocha": "latest",
     "mocha": "latest",
+    "chai": "latest",
     "npm-run-all": "latest",
     "stylelint": "latest"
   }
