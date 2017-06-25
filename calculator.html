@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>A basic calculator</title>
+		<script type="text/javascript" src="src/calculator.js"></script>
+		<link rel="stylesheet" type="text/css" href="src/style.css">
+	</head>
+	<body>
+		<div>
+			<input type="number" id="a">
+			<input type="number" id="b">
+			<div id="result"> </div>
+			<button type="button" id="calculate">Calculate</button>
+		</div>
+		<div>
+			<fieldset>
+				<form>
+					<label><input type="radio" name="operator" id="add" checked />Addition</label>
+					<label><input type="radio" name="operator" id="subtract" />Subtraction</label>
+					<label><input type="radio" name="operator" id="multiply" />Multiplication</label>
+					<label><input type="radio" name="operator" id="divide" />Division</label> 
+					<label><input type="radio" name="operator" id="pow" />Exponentiation</label>
+				</form>
+			</fieldset>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+html * {
+	padding: 1%;
+}
+
+body {
+	width: 100%;
+}
+
+fieldset {
+	width: 90%;
+}
+
+label {
+  clear: none;
+  display: block;
+  padding: 2px 1em 0 0;
+}
+
+input {
+	margin: 1%;
+}
+
+input[type=radio]{
+  clear: none;
+  margin: 2px 2px 0 2px;
+}
+
+div {
+	text-align: center;
+}
+
+#result {
+	width: 20%;
+	border: thin solid black;
+	margin: 1%;
+	padding-right: 35%;
+	padding-left: 40%;
+}
