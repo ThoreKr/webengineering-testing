@@ -20,7 +20,7 @@ input {
 	margin: 1%;
 }
 
-input[type=radio]{
+input[type=radio] {
   clear: none;
   margin: 2px 2px 0 2px;
 }
